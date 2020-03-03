@@ -11,9 +11,9 @@ cpuminer-sse2.exe -a yespowersugar -o stratum+tcp://cpu-pool.com:63418 -u WALLET
 ```
 
 
-Download miner for Windox x64 - https://github.com/cpu-pool/cpuminer-opt-yespowersugar-sugarchain/releases/download/1.4/cpuminer-opt-yespowersugar-sugarchain-win64.zip
+**Download miner for Windox x64** - https://github.com/cpu-pool/cpuminer-opt-yespowersugar-sugarchain/releases/download/1.4/cpuminer-opt-yespowersugar-sugarchain-win64.zip
 
-Download Linux static miner - https://github.com/cpu-pool/cpuminer-opt-yespowersugar-sugarchain/releases/download/1.4/cpuminer-opt-yespowersugar-sugarchain-linux64.tar.gz
+**Download Linux static miner** - https://github.com/cpu-pool/cpuminer-opt-yespowersugar-sugarchain/releases/download/1.4/cpuminer-opt-yespowersugar-sugarchain-linux64.tar.gz
 
 or cmd for download Linux miner
 ```css
