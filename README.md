@@ -13,6 +13,22 @@ cpuminer-sse2.exe -a yespowersugar -o stratum+tcp://cpu-pool.com:63418 -u WALLET
 
 Download miner for Windox x64 - https://github.com/cpu-pool/cpuminer-opt-yespowersugar-sugarchain/releases/download/1.4/cpuminer-opt-yespowersugar-sugarchain-win64.zip
 
+Download Linux static miner - https://github.com/cpu-pool/cpuminer-opt-yespowersugar-sugarchain/releases/download/1.4/cpuminer-opt-yespowersugar-sugarchain-linux64.tar.gz
+
+or cmd for download Linux miner
+```css
+wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz && tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz
+```
+
+cmd for auto - download and start mining *one line CMD for Linux mining* 
+(replace WALLET_ADDRESS!!!)
+```css
+wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz && tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz && echo '#!/bin/sh
+while [ 1 ]; do
+./cpuminer -a yespowersugar -o stratum+tcp://cpu-pool.com:63418 -u WALLET_ADDRESS
+done' > autominer.sh && chmod +x autominer.sh && ./autominer.sh
+```
+
 
 **Sugarchain mining profit calculator** - https://cpu-mining.info/?coin=12
 
